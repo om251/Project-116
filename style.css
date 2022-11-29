@@ -1,0 +1,27 @@
+h3{
+  font-size: 30px;
+  font-family: 'Silkscreen', cursive;
+  color: white;
+}
+
+.ral{
+  border: 2px solid white;
+  border-radius: 6px;
+  width: 13%;
+}
+.ral:hover{
+  background-color: grey;
+}
+
+
+canvas{
+  animation-name:WatchDogs;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes WatchDogs{
+  from{box-shadow: 1px 1px 40px rgb(255, 255, 255);}
+  to{box-shadow: 1px 1px 40px rgb(99, 99, 99);}
+}
+
